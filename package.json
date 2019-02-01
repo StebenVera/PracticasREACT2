@@ -36,6 +36,7 @@
   },
   "homepage": "https://github.com/StebenVera/PracticasREACT2#readme",
   "dependencies": {
+    "prop-types": "^15.6.2",
     "react": "16.7.0",
     "react-dom": "16.7.0"
   }

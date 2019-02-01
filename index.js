@@ -1,7 +1,7 @@
 import React from 'react';
 import {render} from 'react-dom';
-import Media from './src/playlist/components/media';
-
+import Playlist from './src/playlist/components/playlist';
+import data from './src/api.json'
 
 const app = document.getElementById('app');
 const saludo = <h1>Hola mundo5</h1>;
@@ -11,4 +11,4 @@ const saludo = <h1>Hola mundo5</h1>;
 
 //recibe dos parametros
 //Que voy a renderizar y donde lo voy hacer
-render(<Media/> ,app);
+render(<Playlist datos = {data}/> ,app);
